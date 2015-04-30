@@ -37,7 +37,9 @@ var emails = "<!DOCTYPE html>"+
 res.end( emails );
 
 
-var dates = "<!DOCTYPE html>"+"<html>"+"<body onload='getDate()'>"+"<form action='submit_the_form' method='get'>"+"<input name='today's date' type='hidden' id='date_today'>"+"</form>"+"</body>"+"</html>";
+var dates = "<!DOCTYPE html>"+"<html>"+"<body onload='getDate()'>"
++"<form action='submit_the_form' method='get'>"+"<input name='today's date' 
+type='hidden' id='date_today'>"+"</form>"+"</body>"+"</html>";
 res.end( dates );
 
 var h = "<!DOCTYPE html>"+
